@@ -37,8 +37,8 @@ public class SysDebugger {
         }
     }
     public static void logCurrentDateTime() {
-		LocalDatetime timenow = LocalDateTime.now();
-        System.out.println(timenow);
+	LocalDatetime timenow = LocalDateTime.now();
+        System.out.println("Time Crash: " + timenow);
     } 
 
 }
